@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018-01-01"
+            android:id="@+id/todoDate"
+            android:textSize="6dp"
+            android:textColor="@color/white"
+            android:gravity="center|bottom"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="08:00 AM"
+            android:id="@+id/todoTime"
+            android:textSize="7dp"
+            android:textColor="@color/white"
+            android:gravity="center|top"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:id="@+id/todoTitle"
+            android:textSize="9dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contents"
+            android:id="@+id/todoContents"
+            android:textSize="12dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_weight="5" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

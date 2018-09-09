@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <declare-styleable name="WatchAttrs">
+        <attr name="color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="TodoListAttrs">
+        <attr name="dateColor" format="color" />
+        <attr name="timeColor" format="color" />
+        <attr name="titleColor" format="color" />
+        <attr name="contentsColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="WeatherAttrs">
+        <attr name="temColor" format="color" />
+        <attr name="temMinMaxColor" format="color" />
+        <attr name="districtColor" format="color" />
+    </declare-styleable>
+
+</resources>
