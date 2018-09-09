@@ -1,3 +1,4 @@
-# shared_memory_horse_game
+# shared_memory_game
 
-Horse racing game using shared memory
+
+This is a number baseball game that uses shared memory.
